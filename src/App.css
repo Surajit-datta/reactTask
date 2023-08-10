@@ -1,0 +1,946 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  
+}
+body{
+  background:#e9e9fa;
+}
+
+.Header{
+  height:40px;
+  width:100%;
+  border:;
+  display:flex;
+  
+  box-shadow:0 4px 20px -2px   black;
+  background:white;
+  
+}
+.Header_logo{
+  height:40px;
+  width:35%;
+  z-index:10;
+  border-right:;
+  font-family:cursive;
+  font-size:20px;
+  line-height:30px;
+  padding-left: 5px;
+  
+  
+  
+}
+.Header_logo i{
+  color:red;
+
+  
+  
+}
+.Header_logo b{
+  font-size:15px;
+}
+.Slider{
+  padding-left:50px;
+ 
+}
+#check{
+  display:none;
+
+}
+.Header_logo ul{
+  height:87vh;
+  width:30%;
+  
+  position:absolute;
+  color:black;
+  position:absolute;
+  top:40px;
+  left:0px;
+  padding-top:20px;
+  padding-left:10px;
+  background:white;
+  z-index: ;
+ 
+
+}
+.Header_logo ul li{
+  list-style:none;
+}
+#check:checked~ul{
+  transition:5s;
+  left:-100%;
+
+}
+.Header_search{
+  height:40px;
+  width:20%;
+  line-height:40px;
+  border-right:;
+  padding-top:10px;
+}
+#inputSearch{
+  height:40px;
+}
+
+
+.search {
+  width: 100%;
+  position: center;
+  display: flex;
+  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 0px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  
+  background:#fff;
+  text-align: center;
+  color: #3b1515;
+  display:none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height:40px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  height:40px;
+  width: 100%;
+  position: flex;
+  
+  
+}
+
+/*header last*/
+.Headersocial{
+  height:40px;
+  padding-top:10px;
+  display:flex;
+  justify-content:space-between;
+  
+ 
+}
+#Flag{
+  height:40px;
+  width:40%;
+  border-right:;
+  line-height:45px;
+  
+ 
+}
+#Usa{
+  height:40px;
+  width:20px;
+  
+  border-radius:;
+ 
+  
+  
+}
+#img{
+  
+}
+#lan{
+  
+}
+#msg{
+  height:40px;
+  margin-left:5px;
+  padding-left:10px;
+  padding-top:px;
+ 
+  
+}
+#msg i{
+  display:none;
+}
+.Box{
+  text-shadow: 29px 5px 76px black;
+}
+
+
+.Middle_main{
+  height:90vh;
+  width:100%;
+
+  display:flex;
+  padding-left:0%;
+  
+}
+.Groups{
+  height:90vh;
+  width: 70%;
+  border:0px solid black;
+  
+}
+.Active{
+  height:90vh;
+  width:20%;
+ 
+}
+.G{
+  height:8vh;
+  width:100%;
+  border:0px solid black;
+  
+}
+.Searchgroups{
+  height:20vh;
+  width:100%;
+ 
+  border-radius:10px;
+  background:white;
+  text-align:center;
+  
+  
+  
+  
+}
+#Search_box{
+  height:30px;
+  width:80%;
+  border-radius:15px;
+  outline:0.5;
+}
+#Search_button{
+  height:30px;
+  width:15%;
+  border-radius:15px;
+  background:blue;
+  color:white;
+    
+}
+.All{
+  height:15vh;
+  width:100%;
+  
+  border-radius:10px;
+  background:white;
+  text-align:;
+  
+  margin-top:10px;
+  z-index:-1;
+  
+  
+
+}
+.All1{
+  height:5vh;
+  width:100%;
+  
+  padding-left:15px;
+  padding-top:5px;
+  display:flex;
+}
+.All1 b{
+  font-size:13px;
+}
+.All2{
+  height:10vh;
+  width:100%;
+ 
+  position:relative;
+  z-index:-0;
+  
+  
+}
+#Last{
+  width:30%;
+  margin-top:3vh;
+  margin-left:37.5%;
+  border-radius:12.5px;
+}
+.Active{
+  height:90vh;
+  width:30%;
+ 
+ 
+  margin-top:10px;
+}
+#Viewing{
+  height:30px;
+  width:100%;
+  
+  
+}
+#Viewing b{
+  font-size:10px;
+  opacity:.4;
+}
+#card_main{
+  height:auto;
+  width:100%;
+  
+  padding-top:8px;
+}
+#card1{
+  height:150px;
+  width:40%;
+ 
+  margin: 5px auto;
+}
+#card2{
+  height:150px;
+  width:40%;
+  
+  margin:5px auto;
+}
+#card3{
+  height:150px;
+  width:40%;
+  
+  margin:auto;
+}
+#imgg{
+  height:70px;
+  width:100%;
+  
+}
+#imgg1{
+  height:55px;
+  width:100%;
+  
+  background-image:url("./img/1.jpg");
+  background-size:cover;
+}
+#imgg2{
+  height:15px;
+  width:100%;
+  z-index:-2;
+  font-size:10px;
+  padding-left:40%;
+  color:blue;
+}
+#des{
+  height:80px;
+  width:100%;
+ 
+  text-align:end;
+}
+#des i{
+  font-size:10px;
+  text-align:end;
+  opacity:.4
+}
+#Viewing{
+  text-align:end;
+}
+#Viewing b{
+  text-align:end;
+}
+
+#Active1{
+  height:auto;
+  width:90%;
+  
+  margin:auto;
+  background:white;
+}
+#members{
+  height:80px;
+  width:100%;
+ 
+  font-size:15px;
+  padding-left:10px;
+  padding-top:15px;
+}
+#face{
+  height: auto;
+  width:100%;
+ 
+  padding-top:0px;
+ 
+
+  
+}
+#one{
+  height: 50px;
+  width:50px;
+  border:1px solid black;
+  border-radius:50%;
+  margin: 0px auto;
+  background-image:url("./img/ai.jpg");
+  background-size:cover;
+}
+#two{
+  height: 50px;
+  width:50px;
+  border:1px solid black;
+  border-radius:50%;
+  margin:0px auto;
+  background-image:url("./img/2.jpeg");
+  background-size:cover;
+}
+#three{
+  height: 50px;
+  width:50px;
+  border:1px solid black;
+  border-radius:50%;
+  margin:0px auto;
+  background-image:url("./img/1.jpg");
+  background-size:cover;
+  
+}
+#arrow{
+  height:auto;
+  width:100%;
+  padding-left:15px;
+  padding-top:10px;
+  font-size:15px;
+}
+
+#face1{
+  height: auto;
+  width:100%;
+  
+  padding-top:0px;
+ 
+
+  
+}
+
+#a{
+  display:flex;
+}
+#pad{
+ 
+  padding-left:10px;
+  font-size:15px;
+  
+}
+#Active2{
+  height: 320px;
+  width: 90%;
+ background:white;
+  margin:auto;
+
+
+}
+#Recent{
+  height:40px;
+  width:100%;
+  
+
+}
+#Recent_main{
+  height:280px;
+  width:100%;
+  
+}
+#Rec_m1{
+  height:80px;
+  width:100%;
+ 
+  display:flex;
+}
+#one1{
+  height:40px;
+  width:40px;
+  
+  border-radius:50%;
+  margin-top:10px;
+  background-image:url("./img/2.jpeg");
+  background-size:cover;
+  
+}
+#two1{
+  height:80px;
+  width:100px;
+  
+  padding-left:8px;
+
+
+}
+#gold{
+  font-size:14px
+}
+#win{
+  height:30px;
+  width:30px;
+  background:red;
+  position:relative;
+  top:40px;
+  left:10px;
+  background-image:url("./img/ai.jpg");
+  background-size:cover;
+ 
+}
+@media only screen and (min-width:700px) and (max-width:1024px) {
+  body{
+    background:;
+  }
+  .Header_search{
+    height:40px;
+    width:27%;
+    line-height:40px;
+    border-right:;
+    padding-top:10px;
+  }
+  #icon{
+    display:;
+  }
+  #msg i{
+    display:block;
+  }  
+  .Header_logo ul{
+    height:90vh;
+    width:20%;
+    background:white;
+    position:absolute;
+    z-index:-10;
+    position:fixed;
+    top:40px;
+    left:0px;
+    padding-top:20px;
+    color:black;
+    padding-left:10px;
+   
+  
+  }
+  #check:checked~ul{
+    transition:5s;
+    left:00%;
+  
+  }
+  .Middle_main{
+    height:90vh;
+    width:100%;
+    
+    display:flex;
+    padding-left:20%;
+    
+  }
+  .Groups{
+    height:90vh;
+    width: 70%;
+    
+  }
+  .Active{
+    height:90vh;
+    width:30%;
+  }
+
+  .G{
+    padding-left:15px;
+  }
+
+  .Searchgroups{
+    height:15vh;
+    width:90%;
+    border:0px solid black;
+    border-radius:10px;
+    background:white;
+    text-align:start;
+    margin-left:15px;
+    padding-left:15px;
+    
+    
+    
+    
+  }
+  #Search_box{
+    height:30px;
+    width:80%;
+    border-radius:15px;
+    outline:0.5;
+  }
+  #Search_button{
+    height:30px;
+    width:15%;
+    border-radius:15px;
+    background:blue;
+    color:white;
+      
+  }
+
+  .All{
+    width:90%;
+    margin-left:15px;
+    
+    text-align:start;
+  }
+  .All1{
+    padding-top:5px;
+  }
+  #Last{
+    width:75%;
+    margin-top:3vh;
+    margin-left:15px;
+    height:25px;
+    border-radius:12.5px;
+    
+  
+  }
+  .Active{
+  height:90vh;
+  width:30%;
+  
+  margin-top:10px;
+}
+
+
+#card_main{
+  height:;
+  width:90%;
+ 
+  padding-top:0px;
+  margin-left:15px;
+  display:flex;
+  
+}
+#card1{
+  height:150px;
+  width:30%;
+  
+  margin-left:0px;
+}
+#card2{
+  height:150px;
+  width:30%;
+  
+  margin-left:5px;
+}
+#card3{
+  height:150px;
+  width:30%;
+  
+  margin-left:5px;
+  
+} 
+
+
+#imgg{
+  height:70px;
+  width:100%;
+  
+}
+#imgg1{
+  height:55px;
+  width:100%;
+  
+  background-image:url("./img/1.jpg");
+  background-size:cover;
+}
+#imgg2{
+  height:15px;
+  width:100%;
+  
+  font-size:10px;
+  padding-left:40%;
+  color:blue;
+}
+#des{
+  height:80px;
+  width:100%;
+  
+  text-align:start;
+}
+#des i{
+  font-size:10px;
+  opacity:.4
+}
+#Viewing{
+  text-align:start;
+}
+#face{
+  margin-left:0px;
+  display:flex;
+}
+
+
+#Active2{
+  height: 320px;
+  width: 90%;
+  
+  margin:auto;
+
+
+}
+#Recent{
+  height:40px;
+  width:100%;
+ 
+
+}
+#Recent_main{
+  height:280px;
+  width:100%;
+  
+}
+#Rec_m1{
+  height:80px;
+  width:100%;
+  
+  display:flex;
+}
+#one1{
+  height:40px;
+  width:40px;
+  
+  border-radius:50%;
+  margin-top:10px;
+}
+#two1{
+  height:80px;
+  width:150px;
+  
+  padding-left:8px;
+
+
+}
+#icon{
+  display:none;
+}
+  
+  
+  
+}
+
+@media only screen and (min-width:1025px)  {
+  body{
+   
+  }
+  .Header_search{
+    height:40px;
+    width:37%;
+    line-height:40px;
+    border-right:;
+    padding-top:10px;
+  }
+  #icon{
+    display:none;
+  }
+  .Headersocial{
+    padding-left:30px;
+  }
+  #msg i{
+    display:inline-block;
+  }  
+  .Header_logo ul{
+    height:90vh;
+    width:15%;
+    background:white;
+    color:black;
+    position:absolute;
+    z-index:-10;
+    position:absolute;
+    top:40px;
+    padding-top:20px;
+    padding-left:10px;
+   
+  
+  }
+  #check:checked~ul{
+    transition:0s;
+    left:00%;
+  
+  }
+
+  .Middle_main{
+    height:90vh;
+    width:100%;
+    
+    display:flex;
+    padding-left:20%;
+    
+  }
+  .Groups{
+    height:90vh;
+    width: 70%;
+   
+  }
+  .Active{
+    height:90vh;
+    width:30%;
+    
+  }
+  .G{
+    padding-left:15px;
+  }
+
+  .Searchgroups{
+    height:15vh;
+    width:90%;
+   
+    border-radius:10px;
+    background:white;
+    text-align:start;
+    margin-left:15px;
+    padding-left:15px;
+    
+    
+    
+    
+  }
+  #Search_box{
+    height:30px;
+    width:80%;
+    border-radius:15px;
+    outline:0.5;
+  }
+  #Search_button{
+    height:30px;
+    width:15%;
+    border-radius:15px;
+    background:blue;
+    color:white;
+      
+  }
+
+  .All{
+    width:90%;
+    margin-left:15px;
+    
+    text-align:start;
+  }
+  .All1{
+    padding-top:5px;
+  }
+  #Last{
+    width:75%;
+    margin-top:3vh;
+    margin-left:12.5%;
+    margin-left:15px;
+  
+  }
+  .Active{
+    height:43vh;
+    width:100%;
+    
+    margin-top:10px;
+  }
+  .Active{
+    height:90vh;
+    width:30%;
+   
+    margin-top:10px;
+  }
+  
+
+  #card_main{
+    height:;
+    width:90%;
+    
+    padding-top:0px;
+    margin-left:15px;
+    display:flex;
+  }
+  #card1{
+    height:150px;
+    width:30%;
+    
+    margin-left:0px;
+  }
+  #card2{
+    height:150px;
+    width:30%;
+    
+    margin-left:5px;
+  }
+  #card3{
+    height:150px;
+    width:30%;
+    
+    margin-left:5px;
+    
+  }  
+  
+
+  #imgg{
+    height:70px;
+    width:100%;
+    
+  }
+  #imgg1{
+    height:55px;
+    width:100%;
+    
+    background-image:url("./img/1.jpg");
+    background-size:cover;
+  }
+  #imgg2{
+    height:15px;
+    width:100%;
+    
+    font-size:10px;
+    padding-left:50%;
+    color:blue;
+  }
+  #des{
+    height:80px;
+    width:100%;
+    
+    text-align:start;
+  }
+  #des i{
+    font-size:10px;
+    opacity:.4
+  }
+  #Viewing{
+    text-align:start;
+  }
+  #face{
+    margin-left:0px;
+    display:flex;
+  }
+  
+  
+
+  #Active2{
+    height: 320px;
+    width: 90%;
+   
+  
+  }
+  #Recent{
+    height:40px;
+    width:100%;
+   
+  
+  }
+  #Recent_main{
+    height:280px;
+    width:100%;
+    
+  }
+  #Rec_m1{
+    height:80px;
+    width:100%;
+    
+    display:flex;
+  }
+  #one1{
+    height:40px;
+    width:40px;
+  
+    border-radius:50%;
+    margin-top:10px;
+  }
+  #two1{
+    height:80px;
+    width:230px;
+    
+    padding-left:8px;
+  
+  
+  }
+  
+}
